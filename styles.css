@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Inter, 'sans-seriff';
+    color: #ffffff;
+    font-size: 9px;
+    font-weight: 400;
+    background-color:rgb(229,229,229);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 40rem;
+}
+
+.width {
+    width: 38vw;
+}
+
+.first-div {
+    background-color: rgb(241,143,1);
+    display: flex;
+    justify-content: center;
+    height: 2rem;
+}
+
+.first-div .width div {
+    display: flex;
+}
+
+.first-div .width div div {
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.first-div div div img {
+    width: 9px;
+    margin-right: 0.3rem;
+}
+
+form {
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+::placeholder {
+    color: rgb(80,93,132);
+    font-weight:700;
+    font-size: 9px;
+    text-align: center;
+    margin-right: 2rem;
+}
+
+.search-icon {
+    position: absolute;
+    color: rgb(80,93,132);
+    margin-left: 1rem;
+    margin-top: 0.2rem;
+}
+
+input {
+    height: 2rem;
+    width: 7rem;
+    padding-left: 1.5rem;
+}
+
+.first-div .width, .second-div .width  {
+    width: 38vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-div {
+    background-color: rgb(5,25,81);
+    display: flex;
+    justify-content: center;
+    height: 3.5rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.second-div nav p {
+    margin-left: 1rem;
+}
+
+.second-div > div > div {
+    display: flex;
+    align-items: center;
+}
+
+.second-div > div > div > div {
+    margin-left: 1rem;
+}
+
+.second-div img {
+    width: 30px;
+}
+
+.third-div {
+    background-image: url(./people-renovating-the-house-concept-ZER6JDP.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    padding-top: 3.5rem;
+    padding-bottom: 4.5rem;
+}
+
+.service-flex {
+    display: flex;
+    align-items: first baseline;
+}
+
+span {
+    display: block;
+}
+
+.third-div h1 {
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.third-div img {
+    width: 15px;
+}
+
+.mark {
+    display: flex;
+    align-items: center;
+    margin: 0em 0.5em 0em 0.5em;
+    padding-bottom: 0.5em;
+    
+}
+
+.fourth-div {
+    background-color: rgb(5,25,81);
+    display: flex;
+    justify-content: center;
+}
+
+.vertical-border {
+    width: 0.5px;
+    height: 0.8rem;
+    background-color: white;
+}
+
+.mark img {
+    width: 0.5rem;
+    margin-right: 0.5em;
+}
+
+.mark p {
+    font-size: 0.5rem;
+    margin-right: 1em;
+}
+
+.order-button {
+    font-size: 0.7em;
+    width: 6rem;
+    height: 1.2rem;
+    background-color: rgb(241,143,1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourth-div .width {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+}
+
+.fourth-div p {
+    margin-bottom: 2em;
+}
+
+#thick {
+    font-size: 2em;
+}
+
+.tools:first-of-type {
+    padding-top: 0;
+}
+
+.tools {
+    padding-top: 1rem;
+    padding-bottom: 0.3em;
+    display: flex;
+}
+
+.tools img {
+    width: 2em;
+    height: 2em;
+    margin-right: 1em;
+}
+
+.tools-div {
+    width: 45%;
+}
+
+.about-div {
+    width: 45%;
+}
+
+.flex-section {
+    display: flex;
+}
+
+.tools p {
+    font-size: 0.4rem;
+    margin-left: 2.5rem;
+}
+
+.tools .adjust {
+    margin-left: 2rem;
+}
+
+.about-div p {
+    font-size: 0.4rem;
+}
+
+.fourth-div .order-button p{
+    margin-top: 2em;
+}
+
+hr {
+    width: 4.5rem;
+    border-width: 0;
+    margin: 0.5em 0.5em 0.5em 0;
+    height: 1px;
+    background-color: white;
+}
+
+.fourth-div hr {
+    width: 100%;
+    background-color: gray;
+}
+
+.mark1 hr {
+    margin: 3px 1px;
+}
+
+.third-div .width {
+    padding-left: 5vw;
+}
